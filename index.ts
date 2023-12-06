@@ -49,7 +49,6 @@ export const prisma = new PrismaClient();
   }
 
   const server = new ApolloServer({
-    introspection: true,
     typeDefs,
     resolvers
   });
